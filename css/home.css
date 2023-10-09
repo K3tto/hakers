@@ -1,0 +1,295 @@
+body{
+   background-color: #f8f8f8;
+}
+.hero{
+    margin-top: -20px;
+    background-color: rgba(17, 17, 20, 0.034);
+    margin-right: -6px;
+    margin-left: -9px;
+    position: sticky
+}
+
+nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 10px;
+      padding-left: 2%;
+      padding-right: 2%;
+      position: sticky;
+  }
+  nav .logo{
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 30px;
+      color: rgb(53, 53, 53);
+  }
+  span{
+      color: rgb(255, 163, 43);
+  }
+  nav ul li {
+      list-style: none;
+      display: inline-block;
+      padding: 10px 25px;
+      text-decoration: none;
+  }
+  li a{
+      list-style: none;
+      text-decoration: none;
+      color: rgb(102, 102, 102);
+      font-family: Comic Sans MS;
+      font-size: 15px;
+  }
+  
+  li a:hover{
+      color: rgb(255, 255, 255);
+  }
+  
+  #menu_toggle{
+      display: none;
+  } 
+  
+  .quote{
+    padding: 15px 19px;
+    background: #e7e1e1;
+    border: none;
+    border-radius: .5rem;
+    color: #000000;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    box-shadow: 
+    -6px -6px 10px rgba(255, 255, 255, 0.6),
+    6px 6px 8px rgba(275, 74, 74, 0.6),
+    -9px 9px 18px #464646 9px, -9px 18px #4e4e4e;
+  }
+  .quote:hover {
+  box-shadow: -2px -2px 12px rgb(255, 255, 255),
+    -2px -2px 11px rgba(255, 255, 255, .4),
+    2px 2px 10px rgba(141, 141, 141, 0.05),
+    2px 2px 9px rgba(77, 77, 77, 0.199);
+  }
+  .quote:active {
+  box-shadow: 
+  inset -1px -1px 10px #919191,
+  inset -1px -5px 4px #686868,
+    inset 2px 2px 2px rgba(151, 151, 151, 0.075),
+    inset 2px 2px 4px rgba(128, 128, 128, 0.15);
+}
+
+
+.title{
+  width: 50%;
+  position: absolute;
+  float: left;
+}
+
+.title p{
+  font-size: 200px;
+  text-transform: uppercase;
+  font-family: Gambetta;
+  letter-spacing: 10px;
+  color: #243d4e;
+  outline: none;
+  text-align: left;
+  margin-left: 15%;
+  margin-top: 5%;
+  float: left;
+}
+
+.hack-def{
+  float: left;
+  position: relative;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 45%;
+}
+
+.hack-def p{
+  color: #444444;
+  text-align: left;
+  font-size: 30px;
+}
+
+.hackerimg {
+    position: relative;
+    text-align: center;
+    margin-right: 30%;
+    margin-top: 15%;
+    float: right;
+  }
+  
+  .hackerimg img{
+    position: absolute;
+    width: 40vh;
+    transform-origin: left;
+  }
+  
+  .image-1 {
+    clip-path: polygon(0 0, 0 34%, 28% 0);
+    transform: translate(-50px, 20px);
+    transition: transform 300ms ease;
+    transform-origin: top;
+    .hackerimg:hover & {
+      transform: translate(0,0);
+    }
+  }
+  
+  .image-2 {
+    clip-path: polygon(28% 0, 0 32%, 0 100%, 17% 100%, 90% 0);
+    transform: translate(-30px, -5px);
+    transition: transform 300ms ease;
+    .hackerimg:hover & {
+      transform: translate(0,0);
+    }
+  }
+  
+  .image-3 {
+    clip-path: polygon(100% 0, 100% 65%, 74% 100%, 15% 100%, 90% 0);
+    transform: translate(-15px, -25px);
+    transition: transform 300ms ease;
+    .hackerimg:hover & {
+      transform: translate(0,0);
+    }
+  }
+
+  .hats-type h2{
+    position: relative;
+    color: rgb(255, 255, 255);
+    float: none;
+    text-align: center;
+    font-size: 10vh;
+    text-shadow:3px 3px 3px #2b2b2b, 5px 5px 5px #a83c3c;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Style for individual image items */
+.image-item {
+    position: relative;
+}
+
+/* Style for the image */
+.image-item img {
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s ease-in-out; /* Add a smooth hover effect */
+}
+
+/* Style for the hover text */
+.image-item .hover-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #fff; /* Text color */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out; /* Add a smooth fade-in effect */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hover effect: Show text on hover */
+.image-item:hover .hover-text {
+    opacity: 1;
+}
+
+.hackers-def{
+  text-align: left;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.hackers-def h1{
+  color: #2b2b2b;
+  margin-left: 20%;
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.hackers-def p{
+  font-size: 20px;
+  position: inherit;
+  text-align: left;
+  margin-left: 25%;
+  font-size: 25px;
+  margin-right: 20%;
+  margin-top: -10px;
+}
+
+hr{
+  margin-top: 49%;
+}
+
+/*2nd topic na toh*/
+.stopic .title p{
+  margin-top: -430px;
+  width: 50%;
+  position: absolute;
+  float: left;
+  color: #243d4e;
+}
+
+.crack-def p{
+  margin-top: 30%;
+  color: #444444;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 50%;
+  font-size: 30px;
+  }
+
+  .crackimg {
+    position:relative;
+    width:450px;
+    height:800px;
+    transform: rotateY(0deg) rotateX(0deg) scale(0.5); 
+    transform-style: preserve-3d;
+    animation:10s flipme linear infinite;
+    transition:transform 300ms ease;
+    transform-origin:50% 50%;
+    text-align: center;
+    margin-right: 20%;
+    float: right;
+    opacity: .9;
+  }
+  
+  .shrinkwrap {
+    transform:scale(0.5);
+    margin-top: -15%;
+  }
+  
+  .crackimg:hover {
+    transform: rotateY(30deg) rotateX(5deg);
+    cursor:pointer;
+  }
+  
+  @keyframes flipme {
+    0% {
+      transform: rotateY(-30deg) rotateX(0deg);
+    }
+    50% {
+      transform: rotateY(0deg) rotateX(10deg);
+    }
+    100% {
+      transform: rotateY(-30deg) rotateX(0deg);
+    }
+     
+  }
+  
+  .crackimg>img {
+    position:absolute;
+    width: 120vh;
+    border-radius: 20px;
+  }
