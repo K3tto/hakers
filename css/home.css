@@ -31,8 +31,9 @@ nav{
   nav ul li {
       list-style: none;
       display: inline-block;
-      padding: 10px 25px;
+      margin: 10px 25px;
       text-decoration: none;
+      position: relative;
   }
   li a{
       list-style: none;
@@ -42,9 +43,22 @@ nav{
       font-size: 15px;
   }
   
-  li a:hover{
-      color: rgb(255, 255, 255);
+  
+  .menu_item::after{
+    content: '';
+    background-color: black;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    transition: width 0.3s;
   }
+
+  .menu_item:hover::after{
+    width: 100%;
+  }
+
   
   #menu_toggle{
       display: none;
@@ -309,6 +323,7 @@ hr{
     cursor: pointer;
     padding: 15px;
     border-radius: 40px;
+    transition: background-color .15s;
   }
   
   #backtoTop img{
