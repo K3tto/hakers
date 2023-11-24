@@ -10,6 +10,9 @@ body{
     background-repeat: no-repeat;
     
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 
 .content{
     width: 100%;

@@ -1,6 +1,9 @@
 body{
    background-color: #f8f8f8;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 .hero{
     margin-top: -20px;
     background-color: rgba(17, 17, 20, 0.034);
@@ -15,7 +18,7 @@ nav{
       justify-content: space-between;
       padding-top: 10px;
       padding-left: 2%;
-      padding-right: 2%;
+      padding-right: 4%;
       position: sticky;
   }
   nav .logo{
@@ -222,6 +225,7 @@ nav{
 
 .hackers-def{
   text-align: left;
+  
   position: relative;
   margin-bottom: 5%;
 }
