@@ -1,0 +1,176 @@
+/* nav */
+.hero{
+    margin-top: -20px;
+    background-color: rgba(17, 17, 20, 0.034);
+    margin-right: -6px;
+    margin-left: -9px;
+    position: sticky
+  }
+  
+  nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 10px;
+      padding-left: 2%;
+      padding-right: 2%;
+      position: sticky;
+  }
+  nav .logo{
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 30px;
+      color: rgb(53, 53, 53);
+  }
+  
+  span{
+    color: rgb(255, 163, 43);
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+  }
+  li a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    font-family: Comic Sans MS;
+    font-size: 15px;
+  }
+  li a:hover{
+    color: rgb(255, 255, 255);
+  }
+  
+  #menu_toggle{
+    display: none;
+  } 
+
+  .head {
+      font-size: 50px;
+      color: #243d4e;
+      margin-left: 15%;
+  }
+
+  .issue {
+    font-weight: bold;
+    color: black;
+  }
+  .social-pro-issue {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    width: 700px;
+    margin-top: 0;
+  }
+  
+
+
+  /*example and image slider*/
+.creation {
+  padding-top: 2%;
+  width: 100%;
+  font-size: 1em;
+  height: 30vh auto;
+  padding-bottom: 5%;
+ 
+}
+
+.slider {
+    width: 700px;
+    margin: 0 auto 20px;
+    padding:0;
+    text-align: center;
+    
+}
+
+.slider .photos {
+    position: relative;
+    height: 433px;
+}
+
+.slider .photos img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    z-index:0;
+    opacity: 0;
+    transition: opacity 1s;
+    display: block;
+}
+.slider .photos img.shown {
+    opacity: 1;
+}
+.prev:before,
+.next:before {
+  color: #243d4e;
+  font-size: 100px;
+  position: absolute;
+  top: 35%;
+  cursor: pointer;
+}
+.prev:before {
+  content: '<';
+  left: 0;
+}
+.next:before {
+  content: '>';
+  right: 0;
+}
+
+
+
+  /*example and image slider*/
+  .creation {
+    padding-top: 2%;
+    width: 100%;
+    font-size: 1em;
+    height: 30vh auto;
+    padding-bottom: 5%;
+   
+  }
+  
+  .slider {
+      width: 700px;
+      margin: 0 auto 20px;
+      padding:0;
+      text-align: center;
+      
+  }
+  
+  .slider .photos {
+      position: relative;
+      height: 433px;
+  }
+  
+  .slider .photos img {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      left: 0;
+      z-index:0;
+      opacity: 0;
+      transition: opacity 1s;
+      display: block;
+  }
+  .slider .photos img.shown {
+      opacity: 1;
+  }
+  .prev:before,
+  .next:before {
+    color: #243d4e;
+    font-size: 100px;
+    position: absolute;
+    top: 35%;
+    cursor: pointer;
+  }
+  .prev:before {
+    content: '<';
+    left: 0;
+  }
+  .next:before {
+    content: '>';
+    right: 0;
+  }
