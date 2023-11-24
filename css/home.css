@@ -405,3 +405,277 @@ hr{
   font-size: 20px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+
+  .types-crack p{
+    margin-top: 70vh;
+    font-size: 70px;
+    text-align: center;
+    color: #0b263b;
+  }
+
+.blog-item h1 {
+  display: block;
+}
+
+.blog-item a{
+  text-align: center;
+    display: flex;
+    padding: 50px;
+    overflow: hidden;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    border-radius: 6px;
+    margin-bottom: 70px;
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.blog-item a:hover {
+    box-shadow: 0 10px 50px 0 rgba(33, 59, 61, 0.2);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.blog-item .icon {
+    width: 35%;
+    object-fit: cover;
+    margin-right: 50px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 15px 26px rgba(71, 241, 241, 0.4);
+}
+
+.blog-item .content {
+    width: 65%;
+}
+
+.blog-item .content .blog-date {
+    font-size: 12px;
+    margin-left: 20px;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+}
+
+.blog-item .content .blog-date:before {
+    content: '/';
+    color: #2bb673;
+    font-size: 25px;
+    top: auto;
+    position: relative;
+    margin-right: 10px;
+}
+.content p{
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#socialid{
+  margin-top: 20vh;
+  text-align: center;
+}
+
+#socialid button{
+  padding: 1.5em 5em;
+  background: #efefef;
+  border: none;
+  border-radius: .5rem;
+  color: #444;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+  box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
+              -6px -6px 10px rgba(255, 255, 255, .5),
+              6px 6px 8px rgba(255, 255, 255, .075),
+              6px 6px 10px rgba(0, 0, 0, .15);
+}
+
+#socialid button:hover {
+  box-shadow: -2px -2px 6px rgba(255, 255, 255, .6),
+              -2px -2px 4px rgba(255, 255, 255, .4),
+              2px 2px 2px rgba(255, 255, 255, .05),
+              2px 2px 4px rgba(238, 16, 16, 0.1);
+}
+
+#socialid button:active {
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, .7),
+              inset -2px -2px 4px rgba(255, 255, 255, .5),
+              inset 2px 2px 2px rgba(255, 255, 255, .075),
+              inset 2px 2px 4px rgba(0, 0, 0, .15);
+}
+
+
+.lines2{
+  margin-top: 10%;
+}
+
+.viruses .title{
+  margin-top: 15vh;
+}
+
+.virus-def{
+  float: left;
+  position: relative;
+  margin-top: 50vh;
+  margin-left: 15%;
+  margin-right: 45%;
+}
+
+.virus-def p{
+  color: #444444;
+  text-align: left;
+  font-size: 30px;
+}
+
+  .virimg {
+    position: relative;
+    text-align: center;
+    margin-right: 30%;
+    margin-top: -20%;
+    float: right;
+  }
+  
+  .virimg img{
+    position: absolute;
+    width: 40vh;
+    transform-origin: left;
+  }
+
+  .vir1 {
+    clip-path: polygon(0 0, 0 34%, 28% 0);
+    transform: translate(-50px, 20px);
+    transition: transform 300ms ease;
+    transform-origin: top;
+    .virimg:hover & {
+      transform: translate(0,0);
+    }
+  }
+  
+  .vir2 {
+    clip-path: polygon(28% 0, 0 32%, 0 100%, 17% 100%, 90% 0);
+    transform: translate(-30px, -5px);
+    transition: transform 300ms ease;
+    .virimg:hover & {
+      transform: translate(0,0);
+    }
+  }
+  
+  .vir3 {
+    clip-path: polygon(100% 0, 90% 25%, 74% 100%, 15% 100%, 70% 0);
+    transform: translate(-25px, -25px);
+    transition: transform 300ms ease;
+    .virimg:hover & {
+      transform: translate(0,0);
+    }
+  }
+
+  .vir4 {
+    clip-path: polygon(100% 0%, 100% 0%, 900% 100%, 67% 116%, 90% 12%);
+    transform: translate(-7px, -55px);
+    transition: transform 300ms ease;
+    .virimg:hover & {
+      transform: translate(0,0);
+    }
+  }
+
+ .types-virus p{
+  margin-top: 110vh;
+    font-size: 70px;
+    color: #0b263b;
+    text-align: center;
+}
+
+  .worms{
+    margin-top: 10vh;
+  }
+  
+  .worms .title{
+    margin-top: 1vh;
+  }
+  
+  .worms-def{
+    float: right;
+    position: relative;
+    margin-top: 50vh;
+    margin-right: 5%;
+    margin-left: 55%;
+    margin-bottom: 30vh;
+  }
+  
+  .worms-def p{
+    margin-top: -30px;
+    color: #444444;
+    text-align: left;
+    font-size: 30px;
+  }
+
+  .wormimg{
+    float: left;
+    margin-top: -60vh;
+    margin-left: 200px;
+  }
+
+  .trojan{
+    margin-top: 20vh;
+  }
+  
+  .trojan .title{
+    margin-top: 1vh;
+  }
+  
+  .troj-def{
+    float: left;
+    position: relative;
+    margin-top: 60vh;
+    margin-left: 10%;
+    margin-right: 35%;
+    margin-bottom: 50px;
+  }
+  
+  .troj-def p{
+    color: #444444;
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 160px;
+  }
+
+  .trojimg img{
+    float: right;
+    margin-top: -85vh;
+    margin-right: 90px;
+    width: 35%;
+  }
+
+  .trojanexplain{
+    margin-top: 20vh;
+  }
+
+  .trojanexplain p{
+    color: #636769;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 45px;
+  }
+
+  .trojanexplain ul{
+    color: #0b263b;
+    font-size: 30px;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    margin-left: 15%;
+  }
+
+  .trojanexplain ul li{
+    padding-top: 20px;
+  }
