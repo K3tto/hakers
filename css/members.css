@@ -2,9 +2,7 @@
 body{
     overflow-x: hidden; 
 }
-body::-webkit-scrollbar {
-  display: none;
-}
+
   .members h1{
     margin-top: 2%;
     color: #243d4e;
