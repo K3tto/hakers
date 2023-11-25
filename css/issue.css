@@ -56,7 +56,7 @@
 }
 .prev:before,
 .next:before {
-  color: #243d4e;
+  color: #abbbc5;
   font-size: 100px;
   position: absolute;
   top: 35%;
