@@ -51,9 +51,7 @@ if (i < 0) {
     document.querySelector(slider.btnPrev).onclick = slider.prev;
     document.querySelector(slider.btnNext).onclick = slider.next;
 
-  if (slider.auto)  {
-        setInterval(slider.next, slider.rate);
-    }
+
    
     
 };
