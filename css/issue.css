@@ -1,0 +1,74 @@
+.head {
+      font-size: 50px;
+      color: #243d4e;
+      margin-left: 15%;
+  }
+
+  .issue {
+    font-weight: bold;
+    color: black;
+  }
+  .social-pro-issue {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    width: 700px;
+    margin-top: 0;
+  }
+  
+
+
+  /*example and image slider*/
+  .creation {
+    padding-top: 2%;
+    width: 100%;
+    font-size: 1em;
+    height: 30vh auto;
+    padding-bottom: 5%;
+   
+  }
+
+.slider {
+    width: 700px;
+    margin: 0 auto 20px;
+    padding:0;
+    text-align: center;
+    
+}
+
+.slider .photos {
+    position: relative;
+    height: 433px;
+}
+
+.slider .photos img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    z-index:0;
+    opacity: 0;
+    transition: opacity 1s;
+    display: block;
+}
+.slider .photos img.shown {
+    opacity: 1;
+}
+.prev:before,
+.next:before {
+  color: #080808;
+  font-size: 100px;
+  position: absolute;
+  top: 35%;
+  cursor: pointer;
+  opacity: .1;
+}
+.prev:before {
+  content: '<';
+  left: 0;
+}
+.next:before {
+  content: '>';
+  right: 0;
+}
+
